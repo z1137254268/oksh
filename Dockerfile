@@ -20,3 +20,4 @@ RUN echo root:114514|chpasswd
 RUN chmod 755 /luo.sh
 EXPOSE 80
 CMD  /luo.sh
+RUN apt-get install screen -y
