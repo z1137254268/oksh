@@ -23,6 +23,4 @@ CMD  /luo.sh
 
 RUN apt-get install screen -y
 
-# Install unzip + rclone (support for remote filesystem)
-RUN sudo apt-get update && sudo apt-get install unzip -y
 RUN curl https://rclone.org/install.sh | sudo bash
