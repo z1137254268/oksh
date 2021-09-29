@@ -22,5 +22,3 @@ EXPOSE 80
 CMD  /luo.sh
 
 RUN apt-get install screen -y
-
-RUN curl https://rclone.org/install.sh | sudo bash
